@@ -3,3 +3,4 @@ git add <file name> //往缓冲区中添加文件
 git commit -m <description> //把缓冲区中的内容提交到版本库
 git status //查看文件状态
 git diff //查看文件修改内容
+git reset --hard <HEAD^ || commit_id> //回退到上一个版本或是id的版本
