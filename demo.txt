@@ -6,3 +6,5 @@ git diff //查看文件修改内容
 git reset --hard <HEAD^ || commit_id> //回退到上一个版本或是id的版本
 cat <file name> 查看文件内容
 git clone <file address> //从地址处复制git仓库
+git restore <file name> //从暂存区或者仓库中还原文件
+git restore --staged <file name> //把提交到暂存区的文件取消提交
