@@ -5,4 +5,4 @@ git status //查看文件状态
 git diff //查看文件修改内容
 git reset --hard <HEAD^ || commit_id> //回退到上一个版本或是id的版本
 cat <file name> 查看文件内容
-git clone <file address>
+git clone <file address> //从地址处复制git仓库
